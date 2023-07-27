@@ -407,6 +407,11 @@ footer {
 
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
 @media (max-width: 768px) {
+  .book {
+    width: 50%;
+    box-sizing: border-box;
+  }
+  
   .header__description {
     padding: 0 24px;
   }
